@@ -113,7 +113,7 @@ class V8CH_Image_Card_Widget extends WP_Widget {
 			// No longer using extracted vars. This is here for backwards compatibility.
 			extract( $instance );
 
-			include( $this->getTemplateHierarchy( 'widget' ) );
+			include( $this->getTemplateHierarchy( 'card-widget' ) );
 		}
 	}
 

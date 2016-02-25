@@ -25,7 +25,10 @@ echo '<div class="' . $this->widget_options['classname'] . '-description" >';
 if ( !empty( $description ) ) {
 	echo wpautop( $description );
 }
-echo "</div>";
+echo '<div class="widget-content-footer">';
+echo '<a href="' . $link . '">Read more</a>';
+echo "</div>"; // widget-content-footer
+echo "</div>"; // description
 
 echo "</div>"; // wrapper
 
