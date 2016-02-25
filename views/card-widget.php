@@ -26,7 +26,7 @@ if ( !empty( $description ) ) {
 	echo wpautop( $description );
 }
 echo '<div class="widget-content-footer">';
-echo '<a href="' . $link . '">Read more</a>';
+echo '<a href="' . $link . '"><span class="fa fa-chevron-right"></span ><span class="fa fa-chevron-right"></span >Read more</a>';
 echo "</div>"; // widget-content-footer
 echo "</div>"; // description
 
