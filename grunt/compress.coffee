@@ -4,7 +4,7 @@ jshint node:true
 module.exports = {
   plugin: {
     options: {
-      archive: '<%= dir.dist %>/v8ch-card-widget.zip'
+      archive: '<%= dir.dist %>/<%= dir.dist_filename %>'
     }
     files: [
       {

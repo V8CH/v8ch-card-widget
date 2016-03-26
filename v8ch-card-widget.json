@@ -1,8 +1,8 @@
 {
   "name" : "V8CH Card Widget",
   "slug" : "v8ch-card-widget",
-  "download_url" : "http://www.v8ch.com/v8ch-card-widget",
-  "version" : "0.1.0",
+  "download_url" : "http://www.v8ch.com/update/v8ch-card-widget-0_1.zip",
+  "version" : "0.1",
   "author" : "Samai Kaewprasoet",
   "sections" : {
     "description" : "Widget for creating layout cards with icon image and optionally post excerpts. Adapted from excellent Image Widget from Modern Tribe, available at https://wordpress.org/plugins/image-widget/."
