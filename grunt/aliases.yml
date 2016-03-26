@@ -1,0 +1,5 @@
+default:
+  - 'dist'
+dist:
+  - 'clean:dist'
+  - 'compress:plugin'
