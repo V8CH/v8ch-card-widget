@@ -150,7 +150,7 @@ class V8CH_Card_Widget extends WP_Widget {
 	 * @param object $old_instance Widget Instance
 	 *
 	 * @return object
-	 * @author Modern Tribe, Inc.
+	 * @author V8CH
 	 */
 	public function update( $new_instance, $old_instance ) {
 		$instance          = $old_instance;
@@ -184,7 +184,7 @@ class V8CH_Card_Widget extends WP_Widget {
 	 *
 	 * @param object $instance Widget Instance
 	 *
-	 * @author Modern Tribe, Inc.
+	 * @author V8CH
 	 */
 	public function form( $instance ) {
 
@@ -354,7 +354,7 @@ class V8CH_Card_Widget extends WP_Widget {
 	/**
 	 * Admin header css
 	 *
-	 * @author Modern Tribe, Inc.
+	 * @author V8CH
 	 */
 	public function admin_head() {
 		?>
