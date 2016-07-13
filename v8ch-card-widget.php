@@ -1,10 +1,10 @@
 <?php
 
 /*
-Plugin Name: V8CH Card Widget
-Plugin URI: http://www.v8ch.com
+Plugin Name: Rice Paper Card Widget
+Plugin URI: http://www.v8ch.com/plugins/rice-paper-card-widget
 Description: Widget for creating layout cards with icon image and optionally post excerpts.
-Version: 0.1.0
+Version: 0.1.1-b1
 Author: Samai Kaewprasoet
 Author URI: http://www.v8ch.com
 License: GPL3
