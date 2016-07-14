@@ -8,6 +8,7 @@ Changelog
 ---------
 
 ### 0.1.1
+
 _ Issue #4: Rebuild Grunt Tasks. Uses inherited tasks from Rice Paper theme.
 - Issue #1: Add User Documentation
 
