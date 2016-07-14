@@ -2,12 +2,12 @@
 jshint node:true
 ###
 module.exports = (grunt) ->
-  
+
   path = require('path')
   require('time-grunt')(grunt)
 
   pkg = grunt.file.readJSON('package.json')
-  parentPath = '../rice-paper' # Flags this project as a child theme
+  parentPath = '../../themes/rice-paper' # Flags this project as a plugin related to a theme
 
   ###
   Values for Grunt template macros and project filesystem locations
