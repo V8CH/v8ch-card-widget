@@ -1,5 +1,11 @@
 {
+  "name" : "Rice Paper Card Widget",
+  "slug" : "v8ch-card-widget",
+  "download_url" : "http://www.v8ch.com/update/v8ch-card-widget-0_1_0.zip",
   "version" : "0.1.0",
-  "details_url" : "http://www.v8ch.com/plugins/rice-paper-card-widget",
-  "download_url" : "http://www.v8ch.com/update/v8ch-card-widget-0_1_0.zip"
+  "author" : "Samai Kaewprasoet",
+  "sections" : {
+    "description" : "The Rice Paper card widget is meant to extend the concept of the default text widget included with WordPress. It adds an image selectable via the built-in media uploader. And it can include excerpted content from selected categories. The widget is useful for building card-like layout components that can be placed in a widget area or, by using a <a href="https:\/\/developer.wordpress.org\/reference\/functions\/the_widget\/">built-in WordPress template tag<\/a>, may be dynamically placed anywhere on a template. Evolved from the excellent <a href="https:\/\/wordpress.org\/plugins\/image-widget\/">image widget<\/a> from Modern Tribe, the Rice Paper card widget includes a flexible layout template."
+  },
+  "homepage": "http://www.v8ch.com/plugins/rice-paper-card-widget/"
 }
