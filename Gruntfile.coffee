@@ -83,8 +83,8 @@ module.exports = (grunt) ->
   docFiles = {
     '33': 'doc/rice-paper-card-widget.md'
     '152': 'doc/using.md'
-    '257': 'doc/widget-configuration.md'
-    '259': 'doc/layout-templates.md'
+    '231': 'doc/widget-configuration.md'
+    '232': 'doc/layout-templates.md'
   }
   
   ###
