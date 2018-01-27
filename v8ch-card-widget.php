@@ -4,11 +4,10 @@
 Plugin Name: V8CH Card Widget
 Plugin URI: http://www.v8ch.com
 Description: Widget for creating layout cards with icon image and optionally post excerpts.
-Version: 0.1.0
-Author: Samai Kaewprasoet
-Author URI: http://www.v8ch.com
+Version: 0.1.1
+Author: Robert Pratt
 License: GPL3
-License URI: http://www.gnu.org/licenses/gpl-3.0.en.html
+License URI: https://opensource.org/licenses/GPL-3.0
 Text Domain:
 Domain Path:
 */
@@ -32,7 +31,7 @@ $v8ch_card_widget_updates = PucFactory::buildUpdateChecker(
 
 class V8CH_Card_Widget extends WP_Widget {
 
-	const VERSION = '0.1.0';
+	const VERSION = '0.1.1';
 
 	const CUSTOM_IMAGE_SIZE_SLUG = 'v8ch_card_widget_custom';
 
@@ -45,7 +44,7 @@ class V8CH_Card_Widget extends WP_Widget {
 		// load_plugin_textdomain( 'v8ch_card_widget', false, trailingslashit( basename( dirname( __FILE__ ) ) ) . 'lang/' );
 		$widget_ops  = array(
 			'classname'   => 'widget_v8ch_card',
-			'description' => __( 'A custom modification of the Image Tribe Image Widget used to show a single image with a title, URL, description and posts from a selectable taxonomy', 'v8ch_card_widget' )
+			'description' => __( 'A custom modification of the Modern Tribe Image Widget used to show a single image with a title, URL, description and posts from a selectable taxonomy', 'v8ch_card_widget' )
 		);
 		$control_ops = array( 'id_base' => 'widget_v8ch_card' );
 		parent::__construct( 'widget_v8ch_card', __( 'V8CH Card Widget', 'v8ch_card_widget' ), $widget_ops, $control_ops );

@@ -1,12 +1,9 @@
 {
-  "name": "v8ch-card-widget",
-  "version": "0.1.0",
-  "description": "Widget for creating layout cards with icon image and optionally post excerpts. Adapted from excellent Image Widget from Modern Tribe, available at https://wordpress.org/plugins/image-widget/.",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/V8CH/v8ch-card-widget.git"
+  "author": {
+    "email": "bpong@v8ch.com",
+    "name": "Robert Pratt"
   },
-  "author": "Samai Kaewprasoet",
+  "description": "Widget for creating layout cards with icon image and optionally post excerpts. Adapted from excellent Image Widget from Modern Tribe, available at https://wordpress.org/plugins/image-widget/.",
   "license": "GPL-3.0",
   "devDependencies": {
     "coffee": "^3.2.1",
@@ -15,5 +12,11 @@
     "grunt-contrib-coffee": "^1.0.0",
     "grunt-contrib-compress": "^1.0.0",
     "load-grunt-config": "^0.19.1"
-  }
+  },
+  "name": "v8ch-card-widget",,
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/V8CH/v8ch-card-widget.git"
+  },
+  "version": "0.1.1"
 }
