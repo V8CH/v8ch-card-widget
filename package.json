@@ -13,7 +13,7 @@
     "grunt-contrib-compress": "^1.0.0",
     "load-grunt-config": "^0.19.1"
   },
-  "name": "v8ch-card-widget",,
+  "name": "v8ch-card-widget",
   "repository": {
     "type": "git",
     "url": "https://github.com/V8CH/v8ch-card-widget.git"
